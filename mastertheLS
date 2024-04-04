@@ -1,0 +1,9 @@
+#!/bin/bash
+
+ls -cmp | sed 's/ //g'
+
+# -c use the time to sort
+# -m use the comma for seperation
+# -d list the directories
+# -p have the directoryName end with / 
+# sed 's/unix/linux/g' = replace unix with linux, where g is for global
